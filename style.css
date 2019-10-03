@@ -76,7 +76,6 @@ nav.nav-top div.link1{
   font-size : 1.4em;
   flex-basis: 0;
   flex-grow : 1;
-  max-width : 100%;
 }
 div.link1 a{
   background-color: transparent;
@@ -84,7 +83,7 @@ div.link1 a{
   cursor          : pointer;
   display         : inline-block;
   text-decoration : none;
-  padding         : 5px 1.2em;
+  padding         : 6px 1.2em 4px;
   text-align      : center;
   transition      : 0.2s ease-out;
   border-radius   : 0.25rem;
@@ -93,7 +92,349 @@ div.link1 a{
   font-weight     : 700;
   overflow-x      : hidden;
   font-size       : 14.112px;
+  word-spacing    : 1px;
 }
 div.link1 a.left{
-  margin-left: 10px;
+  margin-left: 9px;
+}
+div.link1 a.left2{
+  margin-left: 8px;
+}
+div.link1 a.a1{
+  word-spacing: 1px;
+}
+nav.nav-top div.link2{
+  color  : #6E6F6F;
+}
+div.link2 div.enter{
+  color           : #F4F4F4;
+  font-size       : 0.9em;
+  background-color: #37AAA7;
+  padding         : 6.8px 1.3em 5px 1.2em;
+  font-weight     : 700;
+  cursor          : pointer;
+  border-radius   : 0.25rem;
+  display         : inline-block;
+  line-height     : 24px;
+}
+div.link2 div.lang{
+  color           : rgba(0, 0, 0, 0.5);
+  font-size       : 0.9em;
+  background-color: #E2E2E2;
+  margin          : 0 6px 0 0;
+  padding         : 6px 1.2em 5px 1.2em;
+  font-weight     : 700;
+  cursor          : pointer;
+  border-radius   : 0.25rem;
+  display         : inline-block;
+  line-height     : 24px;
+}
+div.link2 div.lang span{
+  padding: 2px 1px 2px 8px;
+}
+div.all{
+  box-shadow      : 0 2px 0 2px #f4f4f5, 0 6px 0 6px #e7a429;
+  border-right    : 2px solid #00667a;
+  margin-right    : 6px;
+  border-left     : 2px solid #00667a;
+  max-width       : 1388px;
+}
+div.section1{
+  padding         : 0 50px;
+  background-color: #f4f4f4;
+  height          : 239.98px;
+  border-bottom   : none;
+  text-align      : center;
+}
+div.section1 h2{
+  color       : #00667A;
+  padding     : 1.04em 0 0;
+  font-weight : 700;
+  line-height : 1.5;
+  font-size   : 2.0em;
+  word-spacing: 1.5px;
+}
+div.section1 p{
+  line-height     : 2.5em;
+  font-weight     : 700;
+  color           : #666;
+  margin          : 16px auto 16.8px;
+  font-size       : 1.5em;
+  background-color: transparent;
+  width           : 632px;
+  word-spacing    : 1.1px;
+}
+div.section1 a{
+  font-size       : 20px;
+  line-height     : 2.2;
+  position        : relative;
+  overflow        : visible;
+  display         : inline-block;
+  height          : 41px;
+  margin          : 3px 9px;
+  padding         : 0 25px;
+  cursor          : pointer;
+  transition      : 0.3s;
+  color           : #f6f6e6;
+  border          : none;
+  border-radius   : 15px;
+  background-color: #37aaa7;
+}
+div.section1 a:before{
+  position         : absolute;
+  top              : -3px;
+  width            : 22px;
+  height           : 47px;
+  content          : '';
+  background-image : url(image/special-btn.svg);
+  background-repeat: no-repeat;
+  transform        : rotate(180deg);
+  margin-right     : -33px;
+}
+div.section1 a:after{
+  position         : absolute;
+  top              : -3px;
+  width            : 33px;
+  height           : 47px;
+  content          : '';
+  background-image : url(image/special-btn.svg);
+  background-repeat: no-repeat;
+}
+div.section2{
+  padding         : 50px 0;
+  background-color: #fcfcfc;
+}
+div.section2 div.row1{
+  display       : flex;
+  flex-direction: row-reverse;
+  align-items   : center;
+  width         : 65%;
+  margin        : 0 auto;
+}
+div.row1 a{
+  width           : 100%;
+  max-width       : 220px;
+  height          : auto;
+  display         : block;
+  position        : relative;
+  min-height      : 1px;
+  background-color: transparent;
+  text-decoration : none;
+  color           : #54b4ef;
+  transition      : color 0.3s;
+}
+div.row1 a img{
+  display   : block;
+  filter    : grayscale(100%);
+  transition: 0.7s;
+}
+div.row1:hover a img{
+  filter: none;
+}
+div.row1 div.text{
+  margin-left : 50px;
+  margin-right: 0;
+  text-align  : right;
+  flex-basis  : 0;
+  flex-grow   : 1;
+  max-width   : 100%;
+  position    : relative;
+  width       : 100%;
+  min-height  : 1px;
+}
+div.row1 div.text h3{
+  line-height  : 1.5;
+  font-size    : 1.8em;
+  clear        : both;
+  margin-bottom: 19px;
+  font-weight  : 400;
+  color        : #2f1515;
+}
+div.row1 div.text h3 a{
+  color           : #0c7c78;
+  font-weight     : bold;;
+  background-color: transparent;
+  word-spacing    : 1.5px;
+}
+div.row1 div.text p{
+  margin-bottom: 0;
+  color        : #adadad;
+  line-height  : 2.2em;
+  font-size    : 1.5em;
+}
+div.section2 div.row2{
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
+  width         : 65%;
+  margin        : 0 auto;
+}
+div.row2 a{
+  width           : 100%;
+  max-width       : 220px;
+  height          : auto;
+  display         : block;
+  position        : relative;
+  min-height      : 1px;
+  background-color: transparent;
+  text-decoration : none;
+  color           : #54b4ef;
+  transition      : color 0.3s;
+}
+div.row2 a img{
+  display   : block;
+  filter    : grayscale(100%);
+  transition: 0.7s;
+}
+div.row2:hover a img{
+  filter: none;
+}
+div.row2 div.text{
+  margin-right: 50px;
+  margin-left : 0;
+  text-align  : right;
+  flex-basis  : 0;
+  flex-grow   : 1;
+  max-width   : 100%;
+  position    : relative;
+  width       : 100%;
+  min-height  : 1px;
+}
+div.row2 div.text h3{
+  line-height  : 1.5;
+  font-size    : 1.8em;
+  clear        : both;
+  margin-bottom: 19px;
+  font-weight  : 400;
+  color        : #2f1515;
+}
+div.row2 div.text h3 a{
+  color           : #0c7c78;
+  font-weight     : bold;;
+  background-color: transparent;
+  word-spacing    : 1.5px;
+  max-width       : 227px;
+}
+div.row2 div.text p{
+  margin-bottom: 0;
+  color        : #adadad;
+  line-height  : 2.2em;
+  font-size    : 1.5em;
+}
+div.section2 div.row3{
+  display       : flex;
+  flex-direction: row-reverse;
+  align-items   : center;
+  width         : 65%;
+  margin        : 0 auto;
+}
+div.row3 a{
+  width           : 100%;
+  max-width       : 220px;
+  height          : auto;
+  display         : block;
+  position        : relative;
+  min-height      : 1px;
+  background-color: transparent;
+  text-decoration : none;
+  color           : #54b4ef;
+  transition      : color 0.3s;
+}
+div.row3 a img{
+  display   : block;
+  filter    : grayscale(100%);
+  transition: 0.7s;
+}
+div.row3:hover a img{
+  filter: none;
+}
+div.row3 div.text{
+  margin-left : 50px;
+  margin-right: 0;
+  text-align  : right;
+  flex-basis  : 0;
+  flex-grow   : 1;
+  max-width   : 100%;
+  position    : relative;
+  width       : 100%;
+  min-height  : 1px;
+}
+div.row3 div.text h3{
+  line-height  : 1.5;
+  font-size    : 1.8em;
+  clear        : both;
+  margin-bottom: 19px;
+  font-weight  : 400;
+  color        : #2f1515;
+}
+div.row3 div.text h3 a{
+  color           : #0c7c78;
+  font-weight     : bold;;
+  background-color: transparent;
+  word-spacing    : 1.5px;
+}
+div.row3 div.text p{
+  margin-bottom: -2px;
+  color        : #adadad;
+  line-height  : 2.2em;
+  font-size    : 1.5em;
+}
+div.section2 div.row4{
+  display       : flex;
+  flex-direction: row;
+  align-items   : center;
+  width         : 65%;
+  margin        : 0 auto;
+}
+div.row4 a{
+  width           : 100%;
+  max-width       : 220px;
+  height          : auto;
+  display         : block;
+  position        : relative;
+  min-height      : 1px;
+  background-color: transparent;
+  text-decoration : none;
+  color           : #54b4ef;
+  transition      : color 0.3s;
+}
+div.row4 a img{
+  display   : block;
+  filter    : grayscale(100%);
+  transition: 0.7s;
+}
+div.row4:hover a img{
+  filter: none;
+}
+div.row4 div.text{
+  margin-right: 50px;
+  margin-left : 0;
+  text-align  : right;
+  flex-basis  : 0;
+  flex-grow   : 1;
+  max-width   : 100%;
+  position    : relative;
+  width       : 100%;
+  min-height  : 1px;
+}
+div.row4 div.text h3{
+  line-height  : 1.5;
+  font-size    : 1.8em;
+  clear        : both;
+  margin-bottom: 19px;
+  font-weight  : 400;
+  color        : #2f1515;
+}
+div.row4 div.text h3 a{
+  color           : #0c7c78;
+  font-weight     : bold;;
+  background-color: transparent;
+  word-spacing    : 1.5px;
+  max-width       : 300px;
+}
+div.row4 div.text p{
+  margin-bottom: -1px;
+  color        : #adadad;
+  line-height  : 2.2em;
+  font-size    : 1.5em;
 }
