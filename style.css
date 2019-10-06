@@ -686,3 +686,213 @@ div.section4 a:after{
   background-image : url(image/special-btn.svg);
   background-repeat: no-repeat;
 }
+div.section4:hover img{
+  filter: none;
+}
+footer{
+  margin-top      : -2px;
+  position        : relative;
+  padding-top     : 20px;
+  border-top      : 2px solid #00667a;
+  background-color: #033944;
+  box-shadow      : 0 -2px 0 0 #f4f4f5, 0 -6px 0 0 #e7a429;
+  height          : 465.13px;
+  width           : 1856px;
+}
+div.box-footer{
+  padding   : 0 2%;
+  max-width : 1400px;
+  min-width : 1024px;
+  position  : relative;
+  margin    : 0 auto;
+  width     : 90%;
+  min-height: 1px;
+}
+div.box-footer nav.footer{
+  border-bottom: 1px solid #e5a428;
+  font-size    : 1.6em;
+  font-weight  : 900;
+  position     : relative;
+  display      : flex;
+  flex-wrap    : wrap;
+}
+nav.footer a{
+  margin-right: 0;
+  margin-left : 1.5em;
+  display     : inline-block;
+  padding     : 1.3em 0.5em 1.1em 0.5em;
+  color       : #aaa;
+  flex        : 0 0 auto;
+  width       : auto;
+  position    : relative;
+  min-height  : 1px;
+  transition  : color 0.3s;
+  word-spacing: 1.5px;
+}
+nav.footer a.gol{
+  right    : auto;
+  left     : 0;
+  position : absolute;
+  bottom   : 0;
+  height   : 100%;
+  width    : auto;
+  display  : inline-block;
+  color    : #aaa;
+  font-size: 100%;
+  margin   : 0;
+  padding  : 0;
+}
+nav.footer a.gol img{
+  height     : 100%;
+  padding-top: 5px;
+  filter     : grayscale(100%);
+  transition : 0.7s;
+  max-width  : 100%;
+  max-height : 100%;
+}
+div.footer{
+  font-size    : 1.4em;
+  border-bottom: 1px solid #e5a428;
+  padding      : 2em 0 31px 0;
+  display      : flex;
+  flex-wrap    : wrap;
+  font-weight  : normal;
+}
+div.footer nav{
+  flex-basis: 0;
+  flex-grow : 1;
+  max-width : 100%;
+  position  : relative;
+  min-height: 1px;
+}
+div.footer nav.nesh a{
+  display         : block;
+  max-width       : 90px;
+  color           : #888;
+  padding         : 3px 0;
+  background-color: transparent;
+  transition      : color 0.3s;
+}
+div.footer nav.nesh a div{
+  height           : 4px;
+  background-repeat: repeat-x;
+  background-image : url(image/enamad.svg);
+}
+div.footer nav.nesh a div:last-of-type{
+  transform: rotate(180deg);
+}
+div.footer nav.nesh a img{
+  display         : block;
+  max-width       : 113.56px;
+  background-color: #eee;
+  padding         : 0.5em 0;
+  width           : 100%;
+  transform: grayscale(10%);
+}
+div.footer nav.nesh a img:last-of-type{
+  max-width: 105.66px;
+  padding: 9px 0 8px 0;
+}
+div.footer nav.hem h4{
+  font-weight  : 500;
+  color        : #aaa;
+  margin-top   : 1px;
+  margin-bottom: 4px;
+  font-size    : 1.1em;
+  line-height  : 1.5;
+  clear        : both;
+}
+div.footer nav.hem ul{
+  line-height: 2em;
+  list-style : none inline none;
+}
+div.footer nav.hem a{
+  color           : #888;
+  padding         : 3px 0;
+  display         : inline-block;
+  background-color: transparent;
+}
+div.footer nav.bish h4{
+  font-weight  : 500;
+  color        : #aaa;
+  margin-top   : 1px;
+  margin-bottom: 4px;
+  font-size    : 1.1em;
+  line-height  : 1.5;
+  clear        : both;
+  word-spacing : 1px;
+}
+div.footer nav.bish ul{
+  line-height: 2em;
+  list-style : none inline none;
+}
+div.footer nav.bish a{
+  color           : #888;
+  padding         : 3px 0;
+  display         : inline-block;
+  background-color: transparent;
+}
+div.footer nav.pos h4{
+  font-weight  : 500;
+  color        : #aaa;
+  margin-top   : 1px;
+  margin-bottom: 4px;
+  font-size    : 1.1em;
+  line-height  : 1.5;
+  clear        : both;
+  word-spacing : 1px;
+}
+div.footer nav.pos ul{
+  line-height: 2em;
+  list-style : none inline none;
+}
+div.footer nav.pos a{
+  color           : #888;
+  padding         : 3px 0;
+  display         : inline-block;
+  background-color: transparent;
+}
+div.footer nav.nav nav{
+  display         : block;
+  font-size       : 100%;
+  font-weight     : normal;
+  background-color: transparent;
+  margin-top      : 1px;
+}
+div.footer nav.nav a{
+  margin-bottom   : 0.2em;
+  padding         : 3px 0;
+  display         : inline-block;
+  margin-right    : 0;
+  margin-left     : 0.3em;
+  background-color: rgba(0, 0, 0, 0.1);
+  width           : 2.2em;
+  height          : 2.2em;
+  line-height     : 2.2em;
+  text-align      : center;
+  color           : #fff;
+  transition      : 0.3s ease;
+  border-radius   : 2px;
+}
+div.end-footer{
+  flex-direction : row;
+  font-size      : 1.2em;
+  padding        : 2em 0;
+  color          : #aaa;
+  justify-content: space-between;
+  display        : flex;
+}
+div.english a{
+  background-color: rgba(0,0,0,0.1);
+  color: #aaa;
+  padding: 7px 13px 5px 13px;
+  display: inline-block;
+  transition: .3s;
+  border-radius: 2px;
+}
+div.ir{
+  padding: 7px 0 6px;
+}
+div.ir a{
+  color: #bbb;
+}
