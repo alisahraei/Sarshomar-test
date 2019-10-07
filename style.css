@@ -944,4 +944,28 @@ div.ir a{
   nav.footer a.gol img{
     padding-top: 6px;
   }
+  div.footer{
+    padding: 30px 0 30px
+  }
+  div.footer nav.nesh a img{
+    padding: 0.48em 0;
+  }
+  div.footer nav.nesh a img:last-of-type {
+    padding: 8px 0 8.5px 0;
+  }
+  div.footer nav.nesh a div{
+    margin-bottom: 1px;
+  }
+  div.footer nav.hem{
+    margin-top: 1px;
+  }
+  div.footer nav.bish{
+    margin-top: 1px;
+  }
+  div.footer nav.pos{
+    margin-top: 1px;
+  }
+  div.ir{
+    padding: 6.5px 0 6px;
+  }
 }
