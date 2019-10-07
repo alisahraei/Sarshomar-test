@@ -13,7 +13,6 @@ body {
   color           : #6E6F6F;
   direction       : rtl;
   overflow-x      : hidden;
-  height          : 2550.25px;
 }
 div.container{
   position : relative;
@@ -696,8 +695,7 @@ footer{
   border-top      : 2px solid #00667a;
   background-color: #033944;
   box-shadow      : 0 -2px 0 0 #f4f4f5, 0 -6px 0 0 #e7a429;
-  height          : 465.13px;
-  width           : 1856px;
+  width           : 100%;
 }
 div.box-footer{
   padding   : 0 2%;
@@ -717,6 +715,7 @@ div.box-footer nav.footer{
   flex-wrap    : wrap;
 }
 nav.footer a{
+  font-size: 100%;
   margin-right: 0;
   margin-left : 1.5em;
   display     : inline-block;
@@ -784,14 +783,13 @@ div.footer nav.nesh a div:last-of-type{
 div.footer nav.nesh a img{
   display         : block;
   max-width       : 113.56px;
-  background-color: #eee;
+  background-color: #eaeae9;
   padding         : 0.5em 0;
   width           : 100%;
-  transform: grayscale(10%);
 }
 div.footer nav.nesh a img:last-of-type{
   max-width: 105.66px;
-  padding: 9px 0 8px 0;
+  padding  : 9px 0 8px 0;
 }
 div.footer nav.hem h4{
   font-weight  : 500;
@@ -877,22 +875,73 @@ div.footer nav.nav a{
 div.end-footer{
   flex-direction : row;
   font-size      : 1.2em;
-  padding        : 2em 0;
+  padding        : 2em 0 1em;
   color          : #aaa;
   justify-content: space-between;
   display        : flex;
 }
 div.english a{
   background-color: rgba(0,0,0,0.1);
-  color: #aaa;
-  padding: 7px 13px 5px 13px;
-  display: inline-block;
-  transition: .3s;
-  border-radius: 2px;
+  color           : #aaa;
+  padding         : 0.5em 1em;
+  display         : inline-block;
+  transition      : .3s;
+  border-radius   : 2px;
 }
 div.ir{
   padding: 7px 0 6px;
 }
 div.ir a{
   color: #bbb;
+}
+@media screen and (min-width: 1687px){
+  div.link2 div.lang{
+    padding     : 6px 1.2em 6px 1.25em;
+    margin-right: 4px;
+  }
+  div.link2 div.enter{
+    padding: 6.8px 1.3em 6px 1.3em;
+  }
+  div.link1 a{
+    padding: 6px 1.2em 5px;
+  }
+  div.section1{
+    height: 238.98px;
+  }
+  div.row1 div.text p{
+    margin-bottom: -2px;
+  }
+  div.row2 div.text p{
+    margin-bottom: -2px;
+  }
+  div.col1 h4{
+    margin-top: 23.5px;
+  }
+  div.col2 h4{
+    margin-top: 23.5px;
+  }
+  div.col3 h4{
+    margin-top: 23.5px;
+  }
+  div.box-down img{
+    margin-top: 1px;
+  }
+  div.box-down div.text h3{
+    margin-top: 2px;
+  }
+  div.box-down div.text h4{
+    margin-top: -20px;
+  }
+  div.box-down div.text a{
+    margin-top: -15px;
+  }
+  nav.footer a{
+    padding: 1.3em 0.5em 1.15em 0.5em;
+  }
+  footer{
+    height: 464.59px;
+  }
+  nav.footer a.gol img{
+    padding-top: 6px;
+  }
 }
