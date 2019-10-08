@@ -969,3 +969,62 @@ div.ir a{
     padding: 6.5px 0 6px;
   }
 }
+@media screen and (min-width: 1484px){
+  div.all{
+    max-width: 1324.31px;
+    min-height: 1320.31
+  }
+  header h1{
+    min-height: 90px;
+    min-width : 260px;
+  }
+  div.box-head nav.nav-top{
+    width: 1068.31px;
+  }
+  div.link2 div.lang{
+    padding: 6px 1.25em 5px 1.2em;
+    margin : 0 5px 0 0;
+  }
+  div.link2 div.enter{
+    padding: 6.8px 1.3em 5px 1.25em;
+  }
+  div.section1 p{
+    margin: 17px auto 16.8px;
+  }
+  div.section1 a{
+    margin: 2px 9px 3px 9px;
+  }
+  div.row1 div.text p{
+    margin-bottom: -1px;
+  }
+  div.row3 div.text h3{
+    margin-bottom: 19px;
+  }
+  div.row3 div.text p{
+    margin-bottom: -1px;
+  }
+  div.row3 a{
+    max-height: 232.46px;
+  }
+  div.row3{
+    max-height: 232px;
+  }
+  div.row4 a img{
+    min-height: 230.26px;
+  }
+  div.row4 div.text p{
+    margin-bottom: -1px;
+  }
+  div.col1 h4{
+    margin-top: 23.5px
+  }
+  div.col2 h4{
+    margin-top: 23.5px
+  }
+  div.col3 h4{
+    margin-top: 23.5px
+  }
+  div.section3{
+    height: 522px;
+  }
+}
