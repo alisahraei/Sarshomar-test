@@ -8,7 +8,10 @@
   margin     : 0;
   padding    : 0;
 }
-body {
+html{
+  font-size: 62.5%;
+}
+body{
   background-color: #00667a;
   color           : #6E6F6F;
   direction       : rtl;
@@ -860,7 +863,7 @@ div.footer nav.nav nav{
 }
 div.footer nav.nav a{
   margin-bottom   : 0.2em;
-  padding         : 3px 0;
+  padding         : 0px 0;
   display         : inline-block;
   margin-right    : 0;
   margin-left     : 0.3em;
@@ -876,7 +879,7 @@ div.footer nav.nav a{
 div.end-footer{
   flex-direction : row;
   font-size      : 1.2em;
-  padding        : 2em 0;
+  padding        : 2em 0 1.9em 0;
   color          : #aaa;
   justify-content: space-between;
   display        : flex;
@@ -899,8 +902,41 @@ div.ir a{
   html{
     font-size: 70%;
   }
+  .container{
+    max-width: 1400px;
+    min-width: 1024px;
+  }
 }
+@media all and (min-width: 768px){
+  .all{
+    margin-left       :6px;
+    -webkit-box-shadow:0 2px 0 2px #f4f4f5,0 6px 0 6px #e7a429;
+    -moz-box-shadow   :0 2px 0 2px #f4f4f5,0 6px 0 6px #e7a429;
+    box-shadow        :0 2px 0 2px #f4f4f5,0 6px 0 6px #e7a429;
+    border-right      :2px solid #00667a;
+    margin-right      :6px;
+    border-left       :2px solid #00667a;
+  }
 
+  header{
+  -webkit-box-shadow:-2px 0 0 0 #f4f4f5,-6px 0 0 0 #e7a429;
+  -moz-box-shadow   :-2px 0 0 0 #f4f4f5,-6px 0 0 0 #e7a429;
+  box-shadow        :-2px 0 0 0 #f4f4f5,-6px 0 0 0 #e7a429;
+  border-left       :2px solid #00667a;
+  margin-left       :6px;
+  margin-right      :0;
+  border-right      :0;
+}
+}
+@media all and (min-width: 768px) and (max-width: 959px){
+  html{
+    font-size: 60%;
+  }
+  .all{
+    max-width:940px;
+    min-width:710px;
+  }
+}
 
 
 
