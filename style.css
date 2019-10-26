@@ -68,7 +68,7 @@ div.box-head nav.nav-top{
   font-size  : 1.4em;
   padding    : 10px;
   border-top : 2px solid #00667a;
-  width      : 1132px;
+  /*width      : 1132px;*/
   display    : flex;
   flex-wrap  : wrap;
   font-weight: normal;background-color: transparent;
@@ -932,9 +932,12 @@ div.ir a{
   html{
     font-size: 60%;
   }
-  .all{
+  div.container{
     max-width:940px;
     min-width:710px;
+  }
+  div.section2 div.row1{
+    width:75%;
   }
 }
 
